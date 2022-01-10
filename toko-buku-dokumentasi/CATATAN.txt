@@ -1,0 +1,63 @@
+TOKO BUKU ---->
+
+---> PEMBELI BUKU
+---> PRODUK BUKU
+
+
+--> CATATAN
+- Node.js
+- Express
+- Body parser
+- Cors
+- Mysql
+
+--> FRONT END
+- react.js
+
+--> UPDATE NODEMON
+- npm i -g nodemon
+
+--> CEK VERSI NODEMON
+- nodemon -v
+
+
+____________________________________________________________
+
+--> Cara Buat BacKend
+
+* Buat Folder |
+             ---
+* Buka Visual Studio Code
+* Npm init -y 
+* Package.json
+* npm i express body -parser mysql Cors  
+
+
+______________________________________________________________
+
+--> Database
+
+1.
+* Pembeli buku
+* id
+* nomor_anggota
+* nama
+* username -> String
+* password -> String
+* created  -> Tanggal
+* updated  -> Tanggal
+
+2.Produk Buku
+* nama tabel -> Product
+________________________
+id
+* nomor_produk
+* judul buku
+* halaman
+* genre
+* tahun
+* penerbit
+* pengarang
+* ISBN
+* Harga . Diskon
+* created  & updated
