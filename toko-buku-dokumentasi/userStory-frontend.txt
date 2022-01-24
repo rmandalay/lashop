@@ -1,0 +1,30 @@
+1. User Register
+
+- Username : (Profile)
+- Password : (Profile)
+- Email    : (Profile)
+
+* GMAIL / GOOGLE / FACEBOOK / TWITTER
+
+2. User Story
+
+- Login :  ----> Username
+	       Password
+
+- Register
+
+- Beli Buku : - Pembayaran ---->  Transfer Bank
+			         MiniMarket
+				 
+	      - Keranjang ------->  Hapus Barang
+				   Checkout Barang
+
+	      - 3rd Api (Pengiriman) -------> PosIndonesia
+					      Grab | Gojek | NinjaExpress | Sicepat | AnterAja
+
+
+- Searching : -----> Nama Produk yang diinginkan
+- Filter : ---> Harga
+		Alamat
+		
+- Logout : ----> (keluar)

@@ -1,63 +1,44 @@
-TOKO BUKU ---->
+toko buku :
+- pembeli buku
+- produk buku
 
----> PEMBELI BUKU
----> PRODUK BUKU
+install back-end :
+- nodemon
+- express
+- cors
+- body-parser
+- mysql
 
+cara buat backend :
+- buat folder
+- buka vscode
+- npm init -y
+- packge.json muncul
+- npm i express body-parser mysql cors
 
---> CATATAN
-- Node.js
-- Express
-- Body parser
-- Cors
-- Mysql
+DATABASE
+========
 
---> FRONT END
-- react.js
+1. pembeli buku :
+- id = int
+- nomor_anggota = string
+- nama = string
+- username = string
+- password = string
+- role = string
+- created = tanggal
+- updated = tanggal
 
---> UPDATE NODEMON
-- npm i -g nodemon
-
---> CEK VERSI NODEMON
-- nodemon -v
-
-
-____________________________________________________________
-
---> Cara Buat BacKend
-
-* Buat Folder |
-             ---
-* Buka Visual Studio Code
-* Npm init -y 
-* Package.json
-* npm i express body -parser mysql Cors  
-
-
-______________________________________________________________
-
---> Database
-
-1.
-* Pembeli buku
-* id
-* nomor_anggota
-* nama
-* username -> String
-* password -> String
-* created  -> Tanggal
-* updated  -> Tanggal
-
-2.Produk Buku
-* nama tabel -> Product
-________________________
-id
-* nomor_produk
-* judul buku
-* halaman
-* genre
-* tahun
-* penerbit
-* pengarang
-* ISBN
-* Harga . Diskon
-* created  & updated
+2. produk buku :
+- id = int
+- nomor_produk = string
+- judul = string
+- halaman = int
+- genre = string
+- tahun = int
+- penertbit - string
+- pengarang = string
+- ISBN = string
+- harga = int
+- created = tanggal
+- updated = tanggal
